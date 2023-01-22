@@ -92,4 +92,6 @@ pfp = Image.open(profile).convert('RGBA')
 pfp = circle(pfp)
 img.paste(pfp, (1650, 50), pfp)
 final_bytes = BytesIO()
-img.save("real.png")
+
+# CARD
+img.save("card.png")
